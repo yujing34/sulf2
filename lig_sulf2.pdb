@@ -1,0 +1,661 @@
+HEADER    CHAPERONE                               08-MAY-09   2WI7              
+TITLE     ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE INHIBITORS OF THE              
+TITLE    2 HSP90 CHAPERONE                                                      
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: HEAT SHOCK PROTEIN HSP 90-ALPHA;                           
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 FRAGMENT: N-TERMINAL ATP-BINDING DOMAIN, RESIDUES 1-236;             
+COMPND   5 SYNONYM: HSP 86, RENAL CARCINOMA ANTIGEN NY-REN-38;                  
+COMPND   6 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+SOURCE   4 ORGANISM_TAXID: 9606;                                                
+SOURCE   5 ORGAN: SKIN;                                                         
+SOURCE   6 TISSUE: MELANOMA;                                                    
+SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   8 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   9 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET19;                                    
+SOURCE  11 OTHER_DETAILS: CLONED FROM IMAGE\:4026275                            
+KEYWDS    PU3, HSP90, ATPASE, CHAPERONE, HEAT SHOCK, STRESS RESPONSE,           
+KEYWDS   2 NUCLEOTIDE-BINDING, ATP-BINDING, PHOSPHOPROTEIN, PHOSPHORYLATION     
+EXPDTA    X-RAY DIFFRACTION                                                     
+AUTHOR    P.A.BROUGH,X.BARRIL,J.BORGOGNONI,P.CHENE,N.G.M.DAVIES,B.DAVIS,        
+AUTHOR   2 M.J.DRYSDALE,B.DYMOCK,S.A.ECCLES,C.GARCIA-ECHEVERRIA,C.FROMONT,      
+AUTHOR   3 A.HAYES,R.E.HUBBARD,A.M.JORDAN,M.RUGAARD-JENSEN,A.MASSEY,A.MERRET,   
+AUTHOR   4 A.PADFIELD,R.PARSONS,T.RADIMERSKI,F.I.RAYNAUD,A.ROBERTSON,           
+AUTHOR   5 S.D.ROUGHLEY,J.SCHOEPFER,H.SIMMONITE,A.SURGENOR,M.VALENTI,S.WALLS,   
+AUTHOR   6 P.WEBB,M.WOOD,P.WORKMAN,L.M.WRIGHT                                   
+REVDAT   2   10-AUG-11 2WI7    1       KEYWDS AUTHOR JRNL   REMARK              
+REVDAT   2 2                           FORMUL ATOM   MASTER VERSN               
+REVDAT   1   28-JUL-09 2WI7    0                                                
+JRNL        AUTH   P.A.BROUGH,X.BARRIL,J.BORGOGNONI,P.CHENE,N.G.M.DAVIES,       
+JRNL        AUTH 2 B.DAVIS,M.J.DRYSDALE,B.DYMOCK,S.A.ECCLES,                    
+JRNL        AUTH 3 C.GARCIA-ECHEVERRIA,C.FROMONT,A.HAYES,R.E.HUBBARD,           
+JRNL        AUTH 4 A.M.JORDAN,M.R.JENSEN,A.MASSEY,A.MERRETT,A.PADFIELD,         
+JRNL        AUTH 5 R.PARSONS,T.RADIMERSKI,F.I.RAYNAUD,A.ROBERTSON,S.D.ROUGHLEY, 
+JRNL        AUTH 6 J.SCHOEPFER,H.SIMMONITE,S.Y.SHARP,A.SURGENOR,M.VALENTI,      
+JRNL        AUTH 7 S.WALLS,P.WEBB,M.WOOD,P.WORKMAN,L.M.WRIGHT                   
+JRNL        TITL   COMBINING HIT IDENTIFICATION STRATEGIES: FRAGMENT- BASED     
+JRNL        TITL 2 AND IN SILICO APPROACHES TO ORALLY ACTIVE 2-                 
+JRNL        TITL 3 AMINOTHIENO[2,3-D]PYRIMIDINE INHIBITORS OF THE HSP90         
+JRNL        TITL 4 MOLECULAR CHAPERONE.                                         
+JRNL        REF    J.MED.CHEM.                   V.  52  4794 2009              
+JRNL        REFN                   ISSN 0022-2623                               
+JRNL        PMID   19610616                                                     
+JRNL        DOI    10.1021/JM900357Y                                            
+REMARK   2                                                                      
+REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : REFMAC 5.5.0066                                      
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3                                                                      
+REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
+REMARK   3                                                                      
+REMARK   3  DATA USED IN REFINEMENT.                                            
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.50                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 66.85                          
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NONE                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.74                          
+REMARK   3   NUMBER OF REFLECTIONS             : 10056                          
+REMARK   3                                                                      
+REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
+REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
+REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.22301                         
+REMARK   3   R VALUE            (WORKING SET) : 0.21986                         
+REMARK   3   FREE R VALUE                     : 0.28122                         
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.0                             
+REMARK   3   FREE R VALUE TEST SET COUNT      : 534                             
+REMARK   3                                                                      
+REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
+REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.500                        
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.565                        
+REMARK   3   REFLECTION IN BIN     (WORKING SET) : 738                          
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 98.46                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.322                        
+REMARK   3   BIN FREE R VALUE SET COUNT          : 30                           
+REMARK   3   BIN FREE R VALUE                    : 0.405                        
+REMARK   3                                                                      
+REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
+REMARK   3   PROTEIN ATOMS            : 1636                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 31                                      
+REMARK   3   SOLVENT ATOMS            : 77                                      
+REMARK   3                                                                      
+REMARK   3  B VALUES.                                                           
+REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 48.342                         
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3    B11 (A**2) : 0.88                                                 
+REMARK   3    B22 (A**2) : 0.46                                                 
+REMARK   3    B33 (A**2) : -1.34                                                
+REMARK   3    B12 (A**2) : 0.00                                                 
+REMARK   3    B13 (A**2) : 0.00                                                 
+REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3                                                                      
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): 0.423         
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.299         
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.238         
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 10.770        
+REMARK   3                                                                      
+REMARK   3  CORRELATION COEFFICIENTS.                                           
+REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.943                         
+REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.916                         
+REMARK   3                                                                      
+REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES        COUNT    RMS    WEIGHT      
+REMARK   3   BOND LENGTHS REFINED ATOMS        (A):  1696 ; 0.017 ; 0.022       
+REMARK   3   BOND LENGTHS OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   BOND ANGLES REFINED ATOMS   (DEGREES):  2290 ; 1.909 ; 1.986       
+REMARK   3   BOND ANGLES OTHERS          (DEGREES):  NULL ;  NULL ;  NULL       
+REMARK   3   TORSION ANGLES, PERIOD 1    (DEGREES):   207 ; 7.385 ; 5.000       
+REMARK   3   TORSION ANGLES, PERIOD 2    (DEGREES):    75 ;37.244 ;25.200       
+REMARK   3   TORSION ANGLES, PERIOD 3    (DEGREES):   308 ;18.564 ;15.000       
+REMARK   3   TORSION ANGLES, PERIOD 4    (DEGREES):     7 ;20.069 ;15.000       
+REMARK   3   CHIRAL-CENTER RESTRAINTS       (A**3):   258 ; 0.122 ; 0.200       
+REMARK   3   GENERAL PLANES REFINED ATOMS      (A):  1257 ; 0.006 ; 0.020       
+REMARK   3   GENERAL PLANES OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED CONTACTS OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   NON-BONDED TORSION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) REFINED ATOMS      (A):  NULL ;  NULL ;  NULL       
+REMARK   3   H-BOND (X...Y) OTHERS             (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION REFINED ATOMS (A):  NULL ;  NULL ;  NULL       
+REMARK   3   POTENTIAL METAL-ION OTHERS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW REFINED ATOMS        (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY VDW OTHERS               (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND REFINED ATOMS     (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY H-BOND OTHERS            (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION REFINED ATOMS  (A):  NULL ;  NULL ;  NULL       
+REMARK   3   SYMMETRY METAL-ION OTHERS         (A):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT      
+REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1029 ; 0.873 ; 1.500       
+REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  1663 ; 1.666 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   667 ; 2.504 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   627 ; 4.236 ; 4.500       
+REMARK   3                                                                      
+REMARK   3  ANISOTROPIC THERMAL FACTOR RESTRAINTS.   COUNT   RMS    WEIGHT      
+REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3                                                                      
+REMARK   3  NCS RESTRAINTS STATISTICS                                           
+REMARK   3   NUMBER OF DIFFERENT NCS GROUPS : NULL                              
+REMARK   3                                                                      
+REMARK   3  TLS DETAILS                                                         
+REMARK   3   NUMBER OF TLS GROUPS  : NULL                                       
+REMARK   3                                                                      
+REMARK   3  BULK SOLVENT MODELLING.                                             
+REMARK   3   METHOD USED : MASK                                                 
+REMARK   3   PARAMETERS FOR MASK CALCULATION                                    
+REMARK   3   VDW PROBE RADIUS   : 1.40                                          
+REMARK   3   ION PROBE RADIUS   : 0.80                                          
+REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
+REMARK   3   RIDING POSITIONS.                                                  
+REMARK   4                                                                      
+REMARK   4 2WI7 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 08-MAY-09.                  
+REMARK 100 THE PDBE ID CODE IS EBI-39761.                                       
+REMARK 200                                                                      
+REMARK 200 EXPERIMENTAL DETAILS                                                 
+REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
+REMARK 200  DATE OF DATA COLLECTION        : 03-JUN-05                          
+REMARK 200  TEMPERATURE           (KELVIN) : 100                                
+REMARK 200  PH                             : 6.5                                
+REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
+REMARK 200                                                                      
+REMARK 200  SYNCHROTRON              (Y/N) : N                                  
+REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
+REMARK 200  BEAMLINE                       : NULL                               
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU-H3R                      
+REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
+REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
+REMARK 200  MONOCHROMATOR                  : NULL                               
+REMARK 200  OPTICS                         : OSMIC BLUE MIRRORS                 
+REMARK 200                                                                      
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE (RAXIS-IV)             
+REMARK 200  DETECTOR MANUFACTURER          : RIGAKU                             
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : D*TREK                             
+REMARK 200  DATA SCALING SOFTWARE          : D*TREK                             
+REMARK 200                                                                      
+REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 10590                              
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.50                               
+REMARK 200  RESOLUTION RANGE LOW       (A) : 30.00                              
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.0                                
+REMARK 200                                                                      
+REMARK 200 OVERALL.                                                             
+REMARK 200  COMPLETENESS FOR RANGE     (%) : 98.8                               
+REMARK 200  DATA REDUNDANCY                : 2                                  
+REMARK 200  R MERGE                    (I) : 0.10                               
+REMARK 200  R SYM                      (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 8.80                               
+REMARK 200                                                                      
+REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 2.50                     
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 3.20                     
+REMARK 200  COMPLETENESS FOR SHELL     (%) : 98.6                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 2                                  
+REMARK 200  R MERGE FOR SHELL          (I) : 0.51                               
+REMARK 200  R SYM FOR SHELL            (I) : NULL                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.70                               
+REMARK 200                                                                      
+REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
+REMARK 200 SOFTWARE USED: AMORE                                                 
+REMARK 200 STARTING MODEL: PDB ENTRY 1UY6                                       
+REMARK 200                                                                      
+REMARK 200 REMARK: NONE                                                         
+REMARK 280                                                                      
+REMARK 280 CRYSTAL                                                              
+REMARK 280 SOLVENT CONTENT, VS   (%): 60.1                                      
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.8                      
+REMARK 280                                                                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: NULL                                     
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
+REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: I 2 2 2                          
+REMARK 290                                                                      
+REMARK 290      SYMOP   SYMMETRY                                                
+REMARK 290     NNNMMM   OPERATOR                                                
+REMARK 290       1555   X,Y,Z                                                   
+REMARK 290       2555   -X,-Y,Z                                                 
+REMARK 290       3555   -X,Y,-Z                                                 
+REMARK 290       4555   X,-Y,-Z                                                 
+REMARK 290       5555   X+1/2,Y+1/2,Z+1/2                                       
+REMARK 290       6555   -X+1/2,-Y+1/2,Z+1/2                                     
+REMARK 290       7555   -X+1/2,Y+1/2,-Z+1/2                                     
+REMARK 290       8555   X+1/2,-Y+1/2,-Z+1/2                                     
+REMARK 290                                                                      
+REMARK 290     WHERE NNN -> OPERATOR NUMBER                                     
+REMARK 290           MMM -> TRANSLATION VECTOR                                  
+REMARK 290                                                                      
+REMARK 290 CRYSTALLOGRAPHIC SYMMETRY TRANSFORMATIONS                            
+REMARK 290 THE FOLLOWING TRANSFORMATIONS OPERATE ON THE ATOM/HETATM             
+REMARK 290 RECORDS IN THIS ENTRY TO PRODUCE CRYSTALLOGRAPHICALLY                
+REMARK 290 RELATED MOLECULES.                                                   
+REMARK 290   SMTRY1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   2 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   2  0.000000 -1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   2  0.000000  0.000000  1.000000        0.00000            
+REMARK 290   SMTRY1   3 -1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   3  0.000000  1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   3  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290   SMTRY1   4  1.000000  0.000000  0.000000        0.00000            
+REMARK 290   SMTRY2   4  0.000000 -1.000000  0.000000        0.00000            
+REMARK 290   SMTRY3   4  0.000000  0.000000 -1.000000        0.00000            
+REMARK 290   SMTRY1   5  1.000000  0.000000  0.000000       33.39750            
+REMARK 290   SMTRY2   5  0.000000  1.000000  0.000000       45.20800            
+REMARK 290   SMTRY3   5  0.000000  0.000000  1.000000       49.64500            
+REMARK 290   SMTRY1   6 -1.000000  0.000000  0.000000       33.39750            
+REMARK 290   SMTRY2   6  0.000000 -1.000000  0.000000       45.20800            
+REMARK 290   SMTRY3   6  0.000000  0.000000  1.000000       49.64500            
+REMARK 290   SMTRY1   7 -1.000000  0.000000  0.000000       33.39750            
+REMARK 290   SMTRY2   7  0.000000  1.000000  0.000000       45.20800            
+REMARK 290   SMTRY3   7  0.000000  0.000000 -1.000000       49.64500            
+REMARK 290   SMTRY1   8  1.000000  0.000000  0.000000       33.39750            
+REMARK 290   SMTRY2   8  0.000000 -1.000000  0.000000       45.20800            
+REMARK 290   SMTRY3   8  0.000000  0.000000 -1.000000       49.64500            
+REMARK 290                                                                      
+REMARK 290 REMARK: NULL                                                         
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: MONOMERIC                  
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
+REMARK 465                                                                      
+REMARK 465   M RES C SSSEQI                                                     
+REMARK 465     MET A     1                                                      
+REMARK 465     PRO A     2                                                      
+REMARK 465     GLU A     3                                                      
+REMARK 465     GLU A     4                                                      
+REMARK 465     THR A     5                                                      
+REMARK 465     GLN A     6                                                      
+REMARK 465     THR A     7                                                      
+REMARK 465     GLN A     8                                                      
+REMARK 465     ASP A     9                                                      
+REMARK 465     GLN A    10                                                      
+REMARK 465     PRO A    11                                                      
+REMARK 465     MET A    12                                                      
+REMARK 465     GLU A    13                                                      
+REMARK 465     GLU A    14                                                      
+REMARK 465     GLU A    15                                                      
+REMARK 465     GLU A   225                                                      
+REMARK 465     ARG A   226                                                      
+REMARK 465     ASP A   227                                                      
+REMARK 465     LYS A   228                                                      
+REMARK 465     GLU A   229                                                      
+REMARK 465     VAL A   230                                                      
+REMARK 465     SER A   231                                                      
+REMARK 465     ASP A   232                                                      
+REMARK 465     ASP A   233                                                      
+REMARK 465     GLU A   234                                                      
+REMARK 465     ALA A   235                                                      
+REMARK 465     GLU A   236                                                      
+REMARK 470                                                                      
+REMARK 470 MISSING ATOM                                                         
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
+REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
+REMARK 470 I=INSERTION CODE):                                                   
+REMARK 470   M RES CSSEQI  ATOMS                                                
+REMARK 470     LYS A 224    CA   C    O    CB   CG   CD   CE   NZ               
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CLOSE CONTACTS IN SAME ASYMMETRIC UNIT                     
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
+REMARK 500                                                                      
+REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
+REMARK 500   N    TYR A    38     O    HOH A  2012              2.02            
+REMARK 500   O    PRO A    67     O    HOH A  2021              2.10            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    GLU A  42      -16.12    -48.98                                   
+REMARK 500    ASP A 102      -78.73    -60.19                                   
+REMARK 500    LEU A 103      -52.58    -21.92                                   
+REMARK 500    ASN A 105      -59.18   -125.04                                   
+REMARK 500    ALA A 124      100.82     41.30                                   
+REMARK 500    TYR A 139       -9.03    -55.34                                   
+REMARK 500    ALA A 166     -153.49     60.44                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: NON-CIS, NON-TRANS                                         
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING PEPTIDE BONDS DEVIATE SIGNIFICANTLY FROM BOTH          
+REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED           
+REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
+REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
+REMARK 500                                 MODEL     OMEGA                      
+REMARK 500 ASN A  155     ASP A  156                  -31.51                    
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 800                                                                      
+REMARK 800 SITE                                                                 
+REMARK 800 SITE_IDENTIFIER: AC1                                                 
+REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 2KL A1224                 
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 1YES   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 GELDANAMYCIN-BINDING DOMAIN, "OPEN                      
+REMARK 900  " CONFORMATION                                                      
+REMARK 900 RELATED ID: 1UY9   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-BENZO[1,3]                                 
+REMARK 900  DIOXOL-,5-YLMETHYL-9-BUTYL-9H-PURIN-6-                              
+REMARK 900  YLAMINE                                                             
+REMARK 900 RELATED ID: 2CDD   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 WITH 4-(4-(2,3-DIHYDRO-                                 
+REMARK 900  BENZOL(1,4)DIOXIN-6-YL)-5-METHYL-1H-                                
+REMARK 900  PYRAZOL-3-YL)-6-ETHYL-BENZENE-1,3-DIOL                              
+REMARK 900 RELATED ID: 1BYQ   RELATED DB: PDB                                   
+REMARK 900  HSP90 N-TERMINAL DOMAIN BOUND TO ADP-MG                             
+REMARK 900 RELATED ID: 1OSF   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 IN COMPLEX WITH 17-DESMETHOXY-                          
+REMARK 900  17-N,N-DIMETHYLAMINOETHYLAMINO-GELDANAMYCIN                         
+REMARK 900 RELATED ID: 2BSM   RELATED DB: PDB                                   
+REMARK 900  NOVEL, POTENT SMALL MOLECULE INHIBITORS OF                          
+REMARK 900  THE MOLECULAR CHAPERONE HSP90 DISCOVERED                            
+REMARK 900  THROUGH STRUCTURE-BASED DESIGN                                      
+REMARK 900 RELATED ID: 1UY8   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(3-                                
+REMARK 900  TRIMETHOXY-BENZYL)-9H-PURIN-6YLAMINE                                
+REMARK 900 RELATED ID: 2BUG   RELATED DB: PDB                                   
+REMARK 900  SOLUTION STRUCTURE OF THE TPR DOMAIN FROM                           
+REMARK 900  PROTEIN PHOSPHATASE 5 IN COMPLEX WITH HSP90                         
+REMARK 900   DERIVED PEPTIDE                                                    
+REMARK 900 RELATED ID: 2UWD   RELATED DB: PDB                                   
+REMARK 900  INHIBITION OF THE HSP90 MOLECULAR CHAPERONE                         
+REMARK 900  IN VITRO AND IN VIVO BY NOVEL, SYNTHETIC                            
+REMARK 900  , POTENT RESORCINYLIC PYRAZOLE, ISOXAZOLE AMIDE                     
+REMARK 900   ANALOGS                                                            
+REMARK 900 RELATED ID: 2BT0   RELATED DB: PDB                                   
+REMARK 900  NOVEL, POTENT SMALL MOLECULE INHIBITORS OF                          
+REMARK 900  THE MOLECULAR CHAPERONE HSP90 DISCOVERED                            
+REMARK 900  THROUGH STRUCTURE-BASED DESIGN                                      
+REMARK 900 RELATED ID: 1YER   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 GELDANAMYCIN-BINDING DOMAIN, "                          
+REMARK 900  CLOSED" CONFORMATION                                                
+REMARK 900 RELATED ID: 1UYG   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-(2,5-DIMETHOXY-                            
+REMARK 900  BENZYL)-2-FLUORO-9H-PURIN-6-YLAMINE                                 
+REMARK 900 RELATED ID: 2CCU   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 WITH 4-CHLORO-6-(4-(4-(4-                               
+REMARK 900  METHANESULPHONYL-BENZYL)-PIERAZIN-1-YL)-1H-                         
+REMARK 900  PYRAZOL-3-YL)-BENZENE-1,3-DIOL                                      
+REMARK 900 RELATED ID: 2BZ5   RELATED DB: PDB                                   
+REMARK 900  STRUCTURE-BASED DISCOVERY OF A NEW CLASS                            
+REMARK 900  OF HSP90 INHIBITORS                                                 
+REMARK 900 RELATED ID: 2CCS   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 WITH 4-CHLORO-6-(4-PIPERAZIN-                           
+REMARK 900  1-YL-1H-PYRAZOL-3-YL)-BENZENE-1,2-DIOL                              
+REMARK 900 RELATED ID: 1UYF   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-(2-CHLORO-3,4,                             
+REMARK 900  5-TRIMETHOXY-BENZYL)-2-FLUORO-9-PENT-4-                             
+REMARK 900  YLNYL-9H-PURIN-6-YLAMINE                                            
+REMARK 900 RELATED ID: 1YC3   RELATED DB: PDB                                   
+REMARK 900  CRYSTAL STRUCTURE OF HUMAN HSP90ALPHA                               
+REMARK 900  COMPLEXED WITHDIHYDROXYPHENYLPYRAZOLES                              
+REMARK 900 RELATED ID: 1UYI   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-(2,5-DIMETHOXY-                            
+REMARK 900  BENZYL)-2-FLUORO-9-PENT-9H-PURIN-6-                                 
+REMARK 900  YLAMINE                                                             
+REMARK 900 RELATED ID: 1UYD   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2-                                
+REMARK 900  CHLORO-3,4,5-TRIMETHOXY-BENZYL)-9H-PURIN-                           
+REMARK 900  6-YLAMINE                                                           
+REMARK 900 RELATED ID: 2BYI   RELATED DB: PDB                                   
+REMARK 900  3-(5-CHLORO-2,4-DIHYDROXYPHENYL)-PYRAZOLE-                          
+REMARK 900  4-CARBOXAMIDES AS INHIBITORS OF THE HSP90                           
+REMARK 900  MOLECULAR CHAPERONE                                                 
+REMARK 900 RELATED ID: 2VCI   RELATED DB: PDB                                   
+REMARK 900  4,5 DIARYL ISOXAZOLE HSP90 CHAPERONE                                
+REMARK 900  INHIBITORS: POTENTIAL THERAPEUTIC AGENTS FOR                        
+REMARK 900  THE TREATMENT OF CANCER                                             
+REMARK 900 RELATED ID: 1UY6   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(3,4,                              
+REMARK 900  5-TRIMETHOXY-BENZYL)-9H-PURIN-6-YLAMINE                             
+REMARK 900 RELATED ID: 2VCJ   RELATED DB: PDB                                   
+REMARK 900  4,5 DIARYL ISOXAZOLE HSP90 CHAPERONE                                
+REMARK 900  INHIBITORS: POTENTIAL THERAPEUTIC AGENTS FOR                        
+REMARK 900  THE TREATMENT OF CANCER                                             
+REMARK 900 RELATED ID: 1YC4   RELATED DB: PDB                                   
+REMARK 900  CRYSTAL STRUCTURE OF HUMAN HSP90ALPHA                               
+REMARK 900  COMPLEXED WITHDIHYDROXYPHENYLPYRAZOLES                              
+REMARK 900 RELATED ID: 2C2L   RELATED DB: PDB                                   
+REMARK 900  CRYSTAL STRUCTURE OF THE CHIP U-BOX E3                              
+REMARK 900  UBIQUITIN LIGASE                                                    
+REMARK 900 RELATED ID: 1UYK   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-BENZO[1,3]                                 
+REMARK 900  DIOXOL-,5-YLMETHYL-9-BUTYL-2-FLUORO-9H-                             
+REMARK 900  PURIN-6-YLAMINE                                                     
+REMARK 900 RELATED ID: 1UYH   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2,5-                              
+REMARK 900  DIMETHOXY-BENZYL)-2-FLUORO-9H-PURIN-6-                              
+REMARK 900  YLAMINE                                                             
+REMARK 900 RELATED ID: 2CCT   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90 WITH 5-(5-CHLORO-2,4-                                   
+REMARK 900  DIHYDROXY-PHENYL)-4-PIPERAZIN-1-YL-2H-                              
+REMARK 900  PYRAZOLE-3-CARBOXYLIC ACID ETHYLAMIDE                               
+REMARK 900 RELATED ID: 1UYL   RELATED DB: PDB                                   
+REMARK 900  STRUCTURE-ACTIVITY RELATIONSHIPS IN PURINE-                         
+REMARK 900  BASED INHIBITOR BINDING TO HSP90 ISOFORMS                           
+REMARK 900 RELATED ID: 1UYE   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 8-(2-CHLORO-3,4,                             
+REMARK 900  5-TRIMETHOXY-BENZYL)-9-PENT-4-YLNYL-9H-                             
+REMARK 900  PURIN-6-YLAMINE                                                     
+REMARK 900 RELATED ID: 1YC1   RELATED DB: PDB                                   
+REMARK 900  CRYSTAL STRUCTURES OF HUMAN HSP90ALPHA                              
+REMARK 900  COMPLEXED WITHDIHYDROXYPHENYLPYRAZOLES                              
+REMARK 900 RELATED ID: 1UY7   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(4-                                
+REMARK 900  METHOXY-BENZYL)-9H-PURIN-6-YLAMINE                                  
+REMARK 900 RELATED ID: 1UYC   RELATED DB: PDB                                   
+REMARK 900  HUMAN HSP90-ALPHA WITH 9-BUTYL-8-(2,5-                              
+REMARK 900  DIMETHOXY-BENZYL)-9H-PURIN-6-YLAMINE                                
+REMARK 900 RELATED ID: 1YET   RELATED DB: PDB                                   
+REMARK 900  GELDANAMYCIN BOUND TO THE HSP90 GELDANAMYCIN-                       
+REMARK 900  BINDING DOMAIN                                                      
+REMARK 900 RELATED ID: 2JJC   RELATED DB: PDB                                   
+REMARK 900  HSP90 ALPHA ATPASE DOMAIN WITH BOUND SMALL                          
+REMARK 900  MOLECULE FRAGMENT                                                   
+REMARK 900 RELATED ID: 2BYH   RELATED DB: PDB                                   
+REMARK 900  3-(5-CHLORO-2,4-DIHYDROXYPHENYL)-PYRAZOLE-                          
+REMARK 900  4-CARBOXAMIDES AS INHIBITORS OF THE HSP90                           
+REMARK 900  MOLECULAR CHAPERONE                                                 
+REMARK 900 RELATED ID: 2WI1   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+REMARK 900 RELATED ID: 2WI2   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+REMARK 900 RELATED ID: 2WI3   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+REMARK 900 RELATED ID: 2WI4   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+REMARK 900 RELATED ID: 2WI5   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+REMARK 900 RELATED ID: 2WI6   RELATED DB: PDB                                   
+REMARK 900  ORALLY ACTIVE 2-AMINO THIENOPYRIMIDINE                              
+REMARK 900  INHIBITORS OF THE HSP90 CHAPERONE                                   
+DBREF  2WI7 A    1   236  UNP    P07900   HS90A_HUMAN      1    236             
+SEQRES   1 A  236  MET PRO GLU GLU THR GLN THR GLN ASP GLN PRO MET GLU          
+SEQRES   2 A  236  GLU GLU GLU VAL GLU THR PHE ALA PHE GLN ALA GLU ILE          
+SEQRES   3 A  236  ALA GLN LEU MET SER LEU ILE ILE ASN THR PHE TYR SER          
+SEQRES   4 A  236  ASN LYS GLU ILE PHE LEU ARG GLU LEU ILE SER ASN SER          
+SEQRES   5 A  236  SER ASP ALA LEU ASP LYS ILE ARG TYR GLU SER LEU THR          
+SEQRES   6 A  236  ASP PRO SER LYS LEU ASP SER GLY LYS GLU LEU HIS ILE          
+SEQRES   7 A  236  ASN LEU ILE PRO ASN LYS GLN ASP ARG THR LEU THR ILE          
+SEQRES   8 A  236  VAL ASP THR GLY ILE GLY MET THR LYS ALA ASP LEU ILE          
+SEQRES   9 A  236  ASN ASN LEU GLY THR ILE ALA LYS SER GLY THR LYS ALA          
+SEQRES  10 A  236  PHE MET GLU ALA LEU GLN ALA GLY ALA ASP ILE SER MET          
+SEQRES  11 A  236  ILE GLY GLN PHE GLY VAL GLY PHE TYR SER ALA TYR LEU          
+SEQRES  12 A  236  VAL ALA GLU LYS VAL THR VAL ILE THR LYS HIS ASN ASP          
+SEQRES  13 A  236  ASP GLU GLN TYR ALA TRP GLU SER SER ALA GLY GLY SER          
+SEQRES  14 A  236  PHE THR VAL ARG THR ASP THR GLY GLU PRO MET GLY ARG          
+SEQRES  15 A  236  GLY THR LYS VAL ILE LEU HIS LEU LYS GLU ASP GLN THR          
+SEQRES  16 A  236  GLU TYR LEU GLU GLU ARG ARG ILE LYS GLU ILE VAL LYS          
+SEQRES  17 A  236  LYS HIS SER GLN PHE ILE GLY TYR PRO ILE THR LEU PHE          
+SEQRES  18 A  236  VAL GLU LYS GLU ARG ASP LYS GLU VAL SER ASP ASP GLU          
+SEQRES  19 A  236  ALA GLU                                                      
+HET    2KL  A1224      31                                                       
+HETNAM     2KL 2-AMINO-4-[2,4-DICHLORO-5-(2-PYRROLIDIN-1-                       
+HETNAM   2 2KL  YLETHOXY)PHENYL]-N-ETHYLTHIENO[2,3-D]PYRIMIDINE-                
+HETNAM   3 2KL  6-CARBOXAMIDE                                                   
+FORMUL   2  2KL    C21 H23 N5 O2 CL2 S                                          
+FORMUL   3  HOH   *77(H2 O)                                                     
+SITE     1 AC1 15 ASN A  51  ALA A  55  TYR A  61  ASP A  93                    
+SITE     2 AC1 15 ILE A  96  GLY A  97  MET A  98  ASP A 102                    
+SITE     3 AC1 15 LEU A 107  GLY A 135  PHE A 138  THR A 184                    
+SITE     4 AC1 15 HOH A2060  HOH A2076  HOH A2077                               
+CRYST1   66.795   90.416   99.290  90.00  90.00  90.00 I 2 2 2       8          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      0.014971  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  0.011060  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  0.010072        0.00000                         
+HETATM    1  H           1       2.786   6.755  30.014  0.00  0.00           H
+HETATM    2  H           1       4.161   7.370  29.031  0.00  0.00           H
+HETATM    3  H           1       3.915   5.188  28.085  0.00  0.00           H
+HETATM    4  H           1       2.130   5.188  28.293  0.00  0.00           H
+HETATM    5  H           1       1.802   6.783  26.498  0.00  0.00           H
+HETATM    6  H           1       3.588   7.055  26.310  0.00  0.00           H
+HETATM    7  H           1       3.816   4.884  25.254  0.00  0.00           H
+HETATM    8  H           1       2.198   4.346  25.820  0.00  0.00           H
+HETATM    9  H           1       1.020   5.913  24.334  0.00  0.00           H
+HETATM   10  H           1       2.209   4.973  23.394  0.00  0.00           H
+HETATM   11  H           1       3.820   7.015  23.731  0.00  0.00           H
+HETATM   12  H           1       2.450   7.154  22.538  0.00  0.00           H
+HETATM   13  H           1      -3.956  10.816  24.019  0.00  0.00           H
+HETATM   14  H           1      -2.866  11.406  22.695  0.00  0.00           H
+HETATM   15  H           1       4.383   8.943  23.081  0.00  0.00           H
+HETATM   16  H           1       3.020  12.641  21.702  0.00  0.00           H
+HETATM   17  H           1       2.752   8.662  27.677  0.00  0.00           H
+HETATM   18  H           1       2.034   9.377  26.319  0.00  0.00           H
+HETATM   19  O           1       2.196   8.206  24.281  0.00  0.00           O
+HETATM   20  C           1       3.101   7.023  28.981  0.00  0.00           C
+HETATM   21  C           1       3.002   5.824  28.008  0.00  0.00           C
+HETATM   22  C           1       2.804   6.300  26.557  0.00  0.00           C
+HETATM   23  C           1       2.776   5.232  25.462  0.00  0.00           C
+HETATM   24  C           1       2.115   5.769  24.173  0.00  0.00           C
+HETATM   25  C           1       2.715   7.069  23.620  0.00  0.00           C
+HETATM   26  N           1      -2.991  10.931  23.623  0.00  0.00           N
+HETATM   27 Cl           1       0.552  12.838  22.714  0.00  0.00          Cl
+HETATM   28 Cl           1       5.326  11.064  21.589  0.00  0.00          Cl
+HETATM   29  C           1       2.410   9.447  23.703  0.00  0.00           C
+HETATM   30  C           1       3.572   9.688  23.060  0.00  0.00           C
+HETATM   31  C           1       3.808  10.810  22.372  0.00  0.00           C
+HETATM   32  C           1       2.832  11.717  22.276  0.00  0.00           C
+HETATM   33  C           1       1.655  11.500  22.886  0.00  0.00           C
+HETATM   34  C           1       1.428  10.394  23.642  0.00  0.00           C
+HETATM   35  O           1       0.403   7.694  29.523  0.00  0.00           O
+HETATM   36  N           1       2.317   8.129  28.427  0.00  0.00           N
+HETATM   37  C           1       0.960   8.216  28.583  0.00  0.00           C
+HETATM   38  S           1      -1.133   8.885  27.349  0.00  0.00           S
+HETATM   39  C           1       0.324   8.789  27.519  0.00  0.00           C
+HETATM   40  C           1       0.949   9.286  26.438  0.00  0.00           C
+HETATM   41  C           1       0.242  10.205  24.280  0.00  0.00           C
+HETATM   42  N           1      -0.827  10.646  23.754  0.00  0.00           N
+HETATM   43  C           1       0.068   9.666  25.504  0.00  0.00           C
+HETATM   44  C           1      -1.159   9.521  26.026  0.00  0.00           C
+HETATM   45  N           1      -2.164   9.923  25.375  0.00  0.00           N
+HETATM   46  C           1      -1.982  10.496  24.260  0.00  0.00           C
+CONECT   20    1    2   21   36
+CONECT   21    4    3   22   20
+CONECT   22    5    6   23   21
+CONECT   23    7   22   24    8
+CONECT   24   23   10   25    9
+CONECT   25   12   24   11   19
+CONECT   29   34   30   19
+CONECT   30   31   15   29
+CONECT   31   32   30   28
+CONECT   32   31   33   16
+CONECT   33   34   32   27
+CONECT   34   33   29   41
+CONECT   37   35   39   36
+CONECT   39   37   38   40
+CONECT   40   39   18   43
+CONECT   41   34   43   42
+CONECT   43   44   40   41
+CONECT   44   38   43   45
+CONECT   46   26   45   42
+CONECT   27   33
+CONECT   28   31
+CONECT    1   20
+CONECT    2   20
+CONECT    3   21
+CONECT    4   21
+CONECT    5   22
+CONECT    6   22
+CONECT    7   23
+CONECT    8   23
+CONECT    9   24
+CONECT   10   24
+CONECT   11   25
+CONECT   12   25
+CONECT   13   26
+CONECT   14   26
+CONECT   15   30
+CONECT   16   32
+CONECT   17   36
+CONECT   18   40
+CONECT   26   13   14   46
+CONECT   36   37   17   20
+CONECT   42   41   46
+CONECT   45   44   46
+CONECT   19   25   29
+CONECT   35   37
+CONECT   38   39   44
+END
